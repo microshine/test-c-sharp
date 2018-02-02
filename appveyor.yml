@@ -20,12 +20,12 @@ skip_tags: true
 # set clone depth
 clone_depth: 5                      # clone entire repository history if not defined
 
-environment:
-  matrix:
+# environment:
+  # matrix:
   #- Platform: net20
   #- Platform: net40
-  - Platform: net45
+  # - Platform: net45
   #- Platform: sl5
-  - Platform: netstandard1.3
+  # - Platform: netstandard1.3
   #- Platform: monoandroid2.3
   #- Platform: xamarinios1.0
