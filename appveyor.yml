@@ -41,5 +41,5 @@ build:
   project: Test.sln
 
 after_test:
-  - cmd: packages\OpenCover.4.6.519\tools\OpenCover.Console.exe -register:user -target:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\TestPlatform\vstest.console.exe" -targetargs:"Test\bin\Debug\Test.dll" -filter:"+[Target*]* -[TargetTests*]*" -output:opencovertests.xml -mergebyhash
+  - cmd: packages\OpenCover.4.6.519\tools\OpenCover.Console.exe -register:user -target:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\TestPlatform\vstest.console.exe" -targetargs:"Test\bin\Debug\Test.dll" -filter:"+[*]*" -output:opencovertests.xml -mergebyhash
   - cmd: packages\coveralls.io.1.4.2\tools\coveralls.net.exe --opencover coverage.xml -r Eb6EkSCbTNWwxd7s6Vf6xcZaYXNc8z1HE
