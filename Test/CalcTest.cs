@@ -19,5 +19,11 @@ namespace Test
             Assert.AreEqual(Compare.Number(1, 2), -1);
         }
 
+        [TestMethod]
+        public void Equal()
+        {
+            Assert.AreEqual(Compare.Number(2, 2), 0);
+        }
+
     }
 }
