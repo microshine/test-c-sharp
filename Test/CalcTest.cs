@@ -12,5 +12,12 @@ namespace Test
         {
             Assert.AreEqual(Compare.Number(2, 1), 1);
         }
+
+        [TestMethod]
+        public void Less()
+        {
+            Assert.AreEqual(Compare.Number(2, 1), 1);
+        }
+
     }
 }
