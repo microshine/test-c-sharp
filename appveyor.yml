@@ -30,5 +30,9 @@ clone_depth: 5                      # clone entire repository history if not def
   #- Platform: monoandroid2.3
   #- Platform: xamarinios1.0
 
+# build cache to preserve files/folders between builds
+cache:
+  - packages -> **\packages.config
+
 install:
   - nuget restore Test.sln
