@@ -9,7 +9,7 @@ branches:
 
   # blacklist
   except:
-    - gh-pages
+  - gh-pages
 
 # Do not build on tags (GitHub and BitBucket)
 skip_tags: true
@@ -21,12 +21,11 @@ skip_tags: true
 clone_depth: 5                      # clone entire repository history if not defined
 
 environment:
-	# this is how to allow failing jobs in the matrix
-	matrix:
-	#- Platform: net20
-	#- Platform: net40
-	- Platform: net45
-	#- Platform: sl5
-	- Platform: netstandard1.3
-	#- Platform: monoandroid2.3
-	#- Platform: xamarinios1.0
+  matrix:
+  #- Platform: net20
+  #- Platform: net40
+  - Platform: net45
+  #- Platform: sl5
+  - Platform: netstandard1.3
+  #- Platform: monoandroid2.3
+  #- Platform: xamarinios1.0
