@@ -36,3 +36,6 @@ cache:
 
 install:
   - nuget restore Test.sln
+
+build:
+  project: Test.sln
