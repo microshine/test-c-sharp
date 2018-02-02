@@ -29,3 +29,6 @@ clone_depth: 5                      # clone entire repository history if not def
   # - Platform: netstandard1.3
   #- Platform: monoandroid2.3
   #- Platform: xamarinios1.0
+
+install:
+  - nuget restore Test.sln
