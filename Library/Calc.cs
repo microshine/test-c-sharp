@@ -13,7 +13,10 @@ namespace Library
 
         public int Value
         {
-            get => value;
+            get
+            {
+                return value;
+            }
         }
 
         public Calc()
