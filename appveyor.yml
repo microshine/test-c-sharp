@@ -1,0 +1,32 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+
+# branches to build
+branches:
+  # whitelist
+  only:
+  - master
+
+  # blacklist
+  except:
+    - gh-pages
+
+# Do not build on tags (GitHub and BitBucket)
+skip_tags: true
+
+# Start builds on tags only (GitHub and BitBucket)
+# skip_non_tags: true
+
+# set clone depth
+clone_depth: 5                      # clone entire repository history if not defined
+
+environment:
+	# this is how to allow failing jobs in the matrix
+	matrix:
+	#- Platform: net20
+	#- Platform: net40
+	- Platform: net45
+	#- Platform: sl5
+	- Platform: netstandard1.3
+	#- Platform: monoandroid2.3
+	#- Platform: xamarinios1.0
