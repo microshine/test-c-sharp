@@ -3,12 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{D73770FC-243F-4E47-A9FB-95AFA9DB08EF}"
-	ProjectSection(ProjectDependencies) = postProject
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD} = {FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math", "Math\Math.csproj", "{7EA736E0-E1B4-4DB5-A971-00C4644CD0E2}"
 EndProject
@@ -29,22 +24,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}.Debug|ARM.ActiveCfg = Debug|ARM
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}.Debug|ARM.Build.0 = Debug|ARM
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}.Debug|x64.ActiveCfg = Debug|x64
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}.Debug|x64.Build.0 = Debug|x64
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}.Debug|x86.ActiveCfg = Debug|x86
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}.Debug|x86.Build.0 = Debug|x86
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}.Release|ARM.ActiveCfg = Release|ARM
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}.Release|ARM.Build.0 = Release|ARM
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}.Release|x64.ActiveCfg = Release|x64
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}.Release|x64.Build.0 = Release|x64
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}.Release|x86.ActiveCfg = Release|x86
-		{FEF19CE0-2876-46C4-B4A2-7AF65B6CA2DD}.Release|x86.Build.0 = Release|x86
 		{D73770FC-243F-4E47-A9FB-95AFA9DB08EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D73770FC-243F-4E47-A9FB-95AFA9DB08EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D73770FC-243F-4E47-A9FB-95AFA9DB08EF}.Debug|ARM.ActiveCfg = Debug|Any CPU
